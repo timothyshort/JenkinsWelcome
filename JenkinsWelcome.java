@@ -7,16 +7,16 @@ public class JenkinsWelcome {
     String course;
     int cohort = 2;
 
-    printName(name);
+    printName((name);
     printClass(course, cohort);
-  }
+  
 
   private static void printClass(String course, int cohort) {
     System.out.println("Welcome to " + course + " training");
     System.out.println("Cohort: " + cohort);
   }
 
-  public static void printName(String name) {
-    System.out.println("My name is " + name);
+  public static String printName(String name, company) {
+    System.out.println("My name is " + name)
   }
-}
+
